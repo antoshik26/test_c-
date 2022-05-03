@@ -1,0 +1,28 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "ModbusTcp/1.0.4": {
+        "runtime": {
+          "lib/netstandard2.0/ModbusTcp.dll": {
+            "assemblyVersion": "1.0.4.0",
+            "fileVersion": "1.0.4.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ModbusTcp/1.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UgwSFp7em2Yqz09godJDltYDNc11Inm5eAv+uu2fxRZQkzPi6MCoCd65fqHxvQFqeSI7cdebad1RnqNLK2fjSA==",
+      "path": "modbustcp/1.0.4",
+      "hashPath": "modbustcp.1.0.4.nupkg.sha512"
+    }
+  }
+}

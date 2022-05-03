@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net50-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <WarningLevel>1</WarningLevel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EntityFramework" Version="6.4.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="EasyModbus">
+      <HintPath>..\..\..\..\Downloads\Тестовое задание\EasyModbus.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
